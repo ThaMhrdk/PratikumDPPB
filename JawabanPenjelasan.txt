@@ -1,0 +1,16 @@
+Nama  : Muhammad Anantha Mahardika Ridwan, 
+NIM   : 707012400122
+Kelas : D4SIKC-4801
+Kel   : Kel 
+
+Soal 1: Modifikasi Output
+Program melakukan perulangan dari i = 16 hingga kurang dari 27 dan mencetak nilai i + 2, sehingga hasilnya adalah tanggal 18 sampai 28. Jika ingin berhenti di 27, bisa mulai dari i = 18 atau membatasi loop tepat pada 27.
+
+Soal 2: Fungsi go()
+Fungsi ini mencari selisih terbesar antara faktor-faktor berurutan dari sebuah bilangan. Untuk go(30), faktor 30 adalah 1, 2, 3, 5, 6, 10, 15, dan 30. Selisih terbesar ada pada 30 – 15 = 15, sehingga hasilnya 15.
+
+Soal 3: Fungsi panas() dan dingin()
+Fungsi panas(x) menghitung jumlah digit dari sebuah bilangan, sedangkan dingin(x, y) mencari kelipatan y yang memiliki jumlah digit sama dengan x. Misalnya dingin(10, 7) akan mencari kelipatan 7 dengan jumlah digit 10, sedangkan dingin(2, 35) mencari kelipatan 35 dengan jumlah digit 2.
+
+Soal 4: Kalkulator Basis
+Masalahnya adalah kalkulator tidak bisa menampilkan digit ≥ 10 dalam bentuk huruf, melainkan tetap dalam angka desimal. Akibatnya, sebuah string bisa dipecah dengan berbagai cara. Contoh untuk basis 16 dan input “114240”, bisa dibaca sebagai [1][1][4][2][4][0] atau [1][14][2][4][0]. Untuk menghitung jumlah kemungkinan pembacaan yang valid, digunakan algoritma Dynamic Programming.
