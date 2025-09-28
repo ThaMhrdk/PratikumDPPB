@@ -5,8 +5,14 @@ int panas(int x) {
 
 int dingin(int x, int y) {
   int air = 0;
+
   while (panas(air) != x) {
     air += y;
   }
   return air;
+}
+
+void main() {
+  print(dingin(10, 7));
+  print(dingin(2, 35));
 }
